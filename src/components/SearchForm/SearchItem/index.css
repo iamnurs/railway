@@ -1,0 +1,36 @@
+.search-item {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    flex: 1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.placeholder {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E7E7F2;
+    opacity: 0.6;
+}
+
+.search-input {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
